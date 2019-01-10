@@ -9,7 +9,11 @@
 </div><!-- end #body -->
 <footer id="footer" class="footer">
     <div class="container">&copy; 2017-<?php echo date('Y'); ?> <?php echo $this->options->copyright; ?> ALL RIGHTS RESERVED.</div>
-    <div class="copyright">POWERED BY <?php echo formaturl($this->options->powerby,$this->options->rootUrl); ?>, THEME BY <a href="<?php $this->options->rootUrl(); ?>/go/armx/" target="_blank">ARMX</a> & <a href="https://vircloud.net/default/change-theme.html" target="_blank" id="copyright">VIRCLOUD</a>.</div>
+    <div class="copyright">POWERED BY <?php echo formaturl($this->options->powerby,$this->options->rootUrl); ?> , 
+      <div> THEME BY <a href="<?php $this->options->rootUrl(); ?>/#" target="_blank" >ARMX</a> 
+      & <a href="#" target="_blank" id="copyright" >VIRCLOUD</a>.
+      </div> 
+    </div>
     <div class="footer-line"></div>
     <div class="footer-site"><?php echo formaturl($this->options->footersite,$this->options->rootUrl); ?></div>
     <div class="footer-time">
