@@ -109,7 +109,7 @@ $this->need('header.php');
    </a>
   </p>
   <p class="tag-title adnotice">
-   <a href="mailto:coo@vircloud.net?subject=博客广告合作&body=" title="欢迎在本站推广，合作请点本链接与我联系" class="adcontact">推广</a>
+   <a href="mailto:holyelf@qq.com?subject=博客广告合作&body=" title="欢迎在本站推广，合作请点本链接与我联系" class="adcontact">推广</a>
   </p>
 </div>
 <?php endif;?>
