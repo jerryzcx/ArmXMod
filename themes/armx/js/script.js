@@ -238,7 +238,7 @@ if (b.length > 0){
 }
 });
 if(!vir||vir.innerHTML != 'VIRCLOUD'){
-	alert('开发不易，留个版权声明就那么难么？');
+//	alert('开发不易，留个版权声明就那么难么？');
 }
 $('#sharewx').click(function() {
 	var b = $('#wxscimg'),
