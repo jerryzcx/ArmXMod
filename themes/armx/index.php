@@ -27,13 +27,15 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 <div class="post-body">
 					<h2 class="post-title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
 <?php $this->sticky(); ?> <?php new_or_update($this);?>
-					<div class="post-content">
+					<a href="<?php $this->permalink() ?>">
+            <div class="post-content">
              <?php if(isset($this->fields->desc)){ 
                echo $this->fields->desc;
              }else{
                echo mb_substr(strip_tags($this->content), 0, 80, 'utf-8');
              } ?>
                                         ......</div>
+                                        </a>
 					<div class="post-meta">
 <a class="meta-item" href="<?php $this->author->permalink(); ?>"  title="" rel="author"><i class="fa fa-user-o text-muted"></i><?php $this->author(); ?></a>
 <span class="meta-item" title="" id="meta-date"><i class="fa fa-clock-o text-muted"></i><a href="<?php $this->options->rootUrl();?>/<?php $this->date('Y/m'); ?>/" title=""><?php echo $this->dateWord; ?></a></span>
