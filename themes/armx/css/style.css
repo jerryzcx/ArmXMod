@@ -548,6 +548,7 @@ height: 150px;
 overflow: hidden;
 float: left;
 position: relative;
+object-fit: cover;
 }
 .post-thumbnail .post-cat {
 display: inline-block;
