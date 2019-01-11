@@ -9,7 +9,7 @@
 </div><!-- end #body -->
 <footer id="footer" class="footer">
     <div class="container">&copy; 2017-<?php echo date('Y'); ?> <?php echo $this->options->copyright; ?> ALL RIGHTS RESERVED.</div>
-    <div class="copyright">POWERED BY <?php echo formaturl($this->options->powerby,$this->options->rootUrl); ?> , 
+    <div class="copyright">POWERED BY <?php echo formaturl($this->options->powerby,$this->options->rootUrl); ?>
       <div style="display: none;"> THEME BY <a href="<?php $this->options->rootUrl(); ?>/#" target="_blank" >ARMX</a> 
       & <a href="#" target="_blank" id="copyright" >VIRCLOUD</a>.
       </div> 
