@@ -7,6 +7,9 @@
         </div><!-- end .row -->
     </div>
 </div><!-- end #body -->
+
+<?php $this->need('adsense-footer.php'); ?>
+
 <footer id="footer" class="footer">
     <div class="container">&copy; 2017-<?php echo date('Y'); ?> <?php echo $this->options->copyright; ?> ALL RIGHTS RESERVED.</div>
     <div class="copyright">POWERED BY <?php echo formaturl($this->options->powerby,$this->options->rootUrl); ?>

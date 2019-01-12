@@ -239,5 +239,7 @@ style="background-image: url('<?php echo fullurl($this->options->ismeaboutimg,0)
         </section>
     <?php endif; ?>
 
+  <?php $this->need('adsense-sidebar.php'); ?>
+
 </div><!-- end #sidebar -->
 

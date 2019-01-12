@@ -47,6 +47,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 			</div>
         </article>
 	<?php endwhile; ?>
+
+<?php $this->need('adsense-feed.php'); ?>
+
 <?php else: empty_message('暂无内容'); ?>
 <?php endif; ?>
    <?php $this->pageNav('上一页', '下一页', 2); ?>
