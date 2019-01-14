@@ -5,7 +5,7 @@
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-format="fluid"
-             data-ad-layout-key="-h6-16+6l-9j-n"
+             data-ad-layout-key="-h6-1a+74-9a-2q"
              data-ad-client="ca-pub-4664451695421699"
              data-ad-slot="8071859111"></ins>
         <script>
