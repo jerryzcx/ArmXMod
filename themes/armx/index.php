@@ -13,8 +13,15 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  ?>
 <div class="main" id="main" role="main">
 <?php if ($this->have()): ?>
+    <?php $count = 0; ?>
     <h3 class="box-label"><span class="label-left"></span><span class="box-name">最新</span></h3>
 	<?php while($this->next()): ?>
+
+        <?php $count++; ?>
+        <?php if ($count==5): ?>
+            <?php $this->need('adsense-feed.php'); ?>
+        <?php endif;?>
+
         <article class="post">
             <div class="card post-box clearfix">
                 <div class="post-thumbnail"><?php the_post_cat($this);?><a href="<?php $this->permalink(); ?>">
@@ -48,7 +55,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
         </article>
 	<?php endwhile; ?>
 
-<?php $this->need('adsense-feed.php'); ?>
+
 
 <?php else: empty_message('暂无内容'); ?>
 <?php endif; ?>
