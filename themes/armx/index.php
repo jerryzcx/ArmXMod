@@ -33,7 +33,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 </a></div>
                 <div class="post-body">
 					<h2 class="post-title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
-<?php $this->sticky(); ?> <?php new_or_update($this);?>
+<?php new_or_update($this);?> <?php $this->sticky(); ?>
 					<a href="<?php $this->permalink() ?>">
             <div class="post-content">
              <?php if(isset($this->fields->desc)){ 
